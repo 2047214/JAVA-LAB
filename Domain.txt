@@ -1,0 +1,52 @@
+Name : B SMITA
+
+Reg. number : 2047214
+
+Lab 1 --
+
+Description :
+The school management system is an application developed for schools. It is an application developed in Java which is
+used to store all the school-related records. It stores information related to students, staff, and teachers.
+The objective of developing such a system was to reduce the errors that creep in the manual system where it was 
+very difficult to store the records.
+
+Domain : SCHOOL MANAGEMENT SYSTEM
+
+Class Name: TEACHER
+Attributes:
+-Teacher_ID (int)
+-Teacher_Name (varchar)
+-Teacher_Email (varchar)
+-Teacher_Phone(int)
+Methods:
+- void update() :  to insert, delete, edit and update in the DB.
+- modify() : for the to modify their profile contents.
+
+Class Name: STUDENT
+Attributes:
+-Student_ID
+-Student_Name (varchar)
+-Student_Email (varchar)
+-Student_Phone (int)
+-Student_Address (varchar)
+Methods:
+- void modify() \\ same as above.
+- void update() \\ same as above.
+
+Class Name: LOGIN
+Attributes:
+-Login_ID (int)
+-Login_Password (varchar)
+Methods:
+-void validate() -  validation for the required fileds.
+
+Class Name: ABOUT
+Attributes:
+- About_school (varchar)
+- Campus details (varchar)
+- Teachers and staffs (varchar)
+- Facilities available (varchar)
+Methods:
+-void view() - to view the contents stored in the mentioned class.
+
+
